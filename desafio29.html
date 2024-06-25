@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="desafio29.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-games">
+
+      <div class="games">
+        <div class="n_jogos">1 / 3</div>
+        <img src="imagens/blackops3.jpg" />
+        <div class="i_text">Call of Duty Black Ops 3</div>
+      </div>
+
+      <div class="games">
+        <div class="n_jogos">2 / 3</div>
+        <img src="imagens/horizon.jpg" />
+        <div class="i_text">Horizon Forbiden West</div>
+      </div>
+
+      <div class="games">
+        <div class="n_jogos">3 / 3</div>
+        <img src="imagens/Reddead1.jpg" />
+        <div class="i_text">Red Dead Redemption 1</div>
+      </div>
+
+
+      <a class="voltar" onclick="plus_fotos(-1)"> &#10094 </a>
+      <a class="proximo" onclick="plus_fotos(1)"> &#10095 </a>
+
+    </div>
+
+    <div class="dots_box">
+      <span class="ponto" onclick="current_fotos(1)"></span>
+      <span class="ponto" onclick="current_fotos(2)"></span>
+      <span class="ponto" onclick="current_fotos(3)"></span>
+    </div>
+
+    <script src="desafio29.js"></script>
+  </body>
+</html>
